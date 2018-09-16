@@ -1,0 +1,166 @@
+/* GENERAL */
+
+/* h3 titre des sections */
+h3 {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* FELLOWS SECTION */
+.containerBtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fullText {
+    display: none;  
+} 
+
+.iconable {
+    width: 80%;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 10px auto;
+}
+
+.card-img-top {
+    opacity: 0.2;
+}
+
+.fellowRewardText {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 70%;
+    margin-left: 15%;
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+}
+
+.fellowName {
+    position: absolute;
+    text-align: center;
+    top: 270px;
+    width: 70%;
+    margin-left: 15%;
+    font-weight: bold;
+    background-color: #000000;
+    color: white;
+    opacity: 0;
+}
+
+.topCardContainer:hover > .card-img-top {
+    opacity: 1;
+}
+
+.topCardContainer:hover > .fellowRewardText {
+    opacity: 0;
+}
+
+.topCardContainer:hover > .fellowName {
+    opacity: 1;
+}
+
+/* RING SECTION */
+/* tr th scope td https://developer.mozilla.org/fr/docs/Web/HTML/Element/th */
+th, td {
+    text-align: center;
+}
+
+th {
+    width: 50%;
+}
+
+/*REWARD SECTION*/
+.rewardMedia {
+    width: 90%;
+    margin: auto;
+}
+.rewardText {
+    height: 82px;
+    overflow: hidden;
+}
+
+.sectionBtn {
+    display: block;
+    margin: auto;
+}
+
+/*BEST HUNTERS SECTION*/
+.bestHunterContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.hunterCard {
+    margin: 5px auto;
+    width: 80%;
+}
+
+.mt-0 {
+    margin-bottom: 0%;
+}
+
+.hunterProfilePic {
+    border: 0px solid black;
+    border-radius: 8px;
+}
+
+.ringCard{
+    width: 80%;
+    margin: 16px auto 16px;
+}
+
+/*ABOUT SECTION*/
+.gollumCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockquote-footer {
+    text-align: right;
+}
+
+.gollumImgContainer {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gollumQuoteContainer {
+    width: 80%;
+} 
+
+.blockquote-footer {
+    font-size: 1em;
+}
+
+.gollumProfilePic {
+    width: 110px;
+    border-radius: 110px;
+}
+
+/*CONTACT SECTION*/
+.form-group {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.labelIcon {
+    margin: 10px;
+}
+
+/*FOOTER*/
+.blue {
+	color: blue;
+}
+
